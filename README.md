@@ -32,3 +32,18 @@ function solution(N);
 that, given a positive integer N, returns the length of its longest binary gap. The function should return 0 if N doesn't contain a binary gap.
 
 For example, given N = 1049 the function should return 5, because N has binary representation 10000011001 and so its longest binary gap is of length 5.
+
+### Find the Sentence Containing the Largest Number of Words
+
+You are trying to find the sentence containing the largest number of words in string. The text is specified as a String consisting of N characters, spaces, periods, question marks, and exclamation marks. 
+
+The text can be divided into sentences by splitting it at the periods, question marks, and exclamation marks. A sentence without words can be valid, but it must contain at least 1 letter. 
+
+For Example given String="Hello how are you today? My name is Dave. Hi." There are three sentences with the longest being 5 words.
+
+For Example String="Hello the cat... Jumps! In the morning across the bed. Y tho?" There are 6 sentences as defined by the rules. "Hello the cat" (3 words) ""(0 words) ""(0 words) "Jumps"(1 word) "In the morning across the bed"(6 words) "Y tho"(2 words) In this case the function should return 6
+
+Write a function of sentenceLength(String)
+such that it will return the longest sentence in a string as an number.
+
+Gotcha: Extra spaces count as words, so you must fix this. 
